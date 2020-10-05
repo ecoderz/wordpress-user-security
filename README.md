@@ -3,6 +3,15 @@
 
 This plugin is specially designed WordPress developers to access the client's website for security purposes. We have seen the cases sometimes buyer cancel the order or not give you a payment after completing the website so with this plugin you can access the client website and hide your special user account from the users page.
 
+## Versions
+
+### V 1.0.1
+  1. Hide Plugin from Plugins List
+
+### V 1.0.0
+  1. Create Special User
+  2. Hide User from Users List
+
 ## How To Use?
 Because this plugin is for security reasons so we didn't create any frontend page for settings. You have to edit some options before using it.
 
@@ -17,5 +26,8 @@ $userpass   =   "@ecoderz";
 
 ### 2. Second edit user table function
 On line #48 you'll find the function `ecoderz_preUserQuery()`. In this function set the value of `$hiddenuser` with your `$username`.
+
+### 3. Hide Plugin
+In version 1.0.1 after activating, plugin will automatically hide from plugins list.
 
 That's it, Hope you guys will find this plugin helpfull.
